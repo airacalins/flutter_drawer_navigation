@@ -1,8 +1,10 @@
+// ignore_for_file: prefer_const_declarations
+
 import 'package:flutter/material.dart';
 
 class Defaults {
-  static final Color drawerItemColor = Colors.blueGrey;
-  // static final Color drawerItemSelectedColor = Colors.blue[700];
+  static final Color drawerItemColor = Colors.grey;
+  static final Color drawerItemSelectedColor = Colors.amber.shade700;
 
   static final drawerItemText = [
     'Inbox',
